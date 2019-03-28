@@ -1,0 +1,22 @@
+.footer{
+  padding: 30px 0;
+  &:after{
+    display: none;
+  }
+}
+.footer-copyright{
+  color: #0d0d0d;
+  font-size: 14px;
+  font-weight: 600;
+  width: 50%;
+  float: left;
+  text-transform: uppercase;
+}
+.footer-icons{
+  width: 50%;
+  float: right;
+  text-align: right;
+  .icon{
+    margin-left: 22px;
+  }
+}

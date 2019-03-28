@@ -1,0 +1,149 @@
+.pricing{
+  min-height: 424px;
+  margin-bottom: 30px;
+}
+.pricing-items{
+  //border: 1px solid #e6e6e6;
+  float: right;
+
+}
+.pricing-item{
+  width: 248px;
+  min-height: 424px;
+  text-align: center;
+  float: left;
+  &:hover{
+    .pricing-item-header{
+      @include transition-duration;
+      background-color: $color;
+      color: #ffffff;
+      margin-top: -20px;
+      height: 140px;
+      .pricing-title{
+        line-height: 65px;
+        margin: 0;
+        padding: 20px 0 0 0;
+        &:after{
+          background: #ffffff;
+        }
+      }
+    }
+    .pricing-item-footer{
+      @include transition-duration;
+      background: #e6e6e6;
+      padding-bottom: 104px;
+    }
+    .pricing-item-row{
+      &-ff{
+        @include transition-duration;
+        background-color: #f2f2f2;
+      }
+      &-fa{
+        @include transition-duration;
+        background-color: #e6e6e6;
+      }
+    }
+    .pricing-btn{
+      @include transition-duration;
+      color: #fff;
+      background-color: $color;
+    }
+  }
+}
+.pricing-item-header{
+  height: 120px;
+  border-top: 1px solid #e6e6e6;
+  border-bottom: 1px solid #e6e6e6;
+
+}
+.pricing-item-footer{
+  height: 104px;
+  background-color: #fafafa;
+  padding: 5% 0;
+  border-bottom: 1px solid #e6e6e6;
+}
+.pricing-item-row{
+  height: 50px;
+  border-bottom: 1px solid #e6e6e6;
+  color: #737373;
+  font-size: 15px;
+  line-height: 24px;
+  padding: 5% -0px;
+  &-ff{
+    background-color: #ffffff;
+  }
+  &-fa{
+    background-color: #fafafa;
+  }
+}
+.pricing-title{
+  font-size: 22px;
+  font-weight: 700;
+  line-height: 45px;
+  text-transform: uppercase;
+  position: relative;
+  margin: 0;
+  padding: 10px 0;
+  &:after{
+    content: '';
+    display: block;
+    width: 50px;
+    height: 2px;
+    background: $color;
+    position: absolute;
+    top: auto;
+    left: 50%;
+    bottom: 0;
+    margin-left: -25px;
+  }
+}
+.pricing-price{
+  font-size: 22px;
+  line-height: 45px;
+  font-weight: 700;
+}
+.pricing-btn{
+  display: inline-block;
+  padding: 0 25px;
+  font-size: 14px;
+  font-weight: 600;
+  color: #000;
+  text-transform: uppercase;
+  line-height: 40px;
+  background-color: transparent;
+  border: 2px solid $color;
+}
+.pricing-border-left{
+  border-left: 1px solid #e6e6e6;
+}
+.pricing-border-right{
+  border-right: 1px solid #e6e6e6;
+}
+
+.package{
+  width: 422px;
+  float: left;
+  text-align: left;
+}
+
+.package-icon{
+  width: 125px;
+  height: 125px;
+  margin: 0 0 24px 0;
+  /*float: left;*/
+  text-align: center;
+  line-height: 125px;
+  border: 2px solid #f39c12;
+  border-radius: 125px;
+}
+.package-title{
+  font-size: 20px;
+  line-height: 25px;
+  text-transform: uppercase;
+  margin-bottom: -2px;
+}
+.package-text{
+  font-size: 16px;
+  line-height: 28px;
+  margin-right: 110px;
+}

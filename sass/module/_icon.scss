@@ -1,0 +1,66 @@
+@import "icon/*.png";
+
+$icon-layout: smart;
+@include all-icon-sprites(true);
+
+.icon{
+  vertical-align: middle;
+  display: inline-block;
+}
+
+.icon-twitter2{
+  &:hover{
+    background-position: 0 -634px;
+    height: 15px;
+    width: 18px;
+    @include transition-duration;
+  }
+}
+.icon-facebook{
+  &:hover{
+    background-position: 0 -158px;
+    height: 18px;
+    width: 10px;
+    @include transition-duration;
+  }
+}
+.icon-linkedin{
+  &:hover{
+    background-position: 0 -336px;
+    height: 18px;
+    width: 18px;
+    @include transition-duration;
+  }
+}
+.icon-dribbble{
+  &:hover{
+    background-position: 0 -122px;
+    height: 18px;
+    width: 18px;
+    @include transition-duration;
+  }
+}
+.icon-pinterest{
+  &:hover{
+    background-position: 0 -489px;
+    height: 20px;
+    width: 16px;
+    @include transition-duration;
+  }
+}
+.icon-google-plus{
+  &:hover{
+    background-position: 0 -214px;
+    height: 18px;
+    width: 18px;
+    @include transition-duration;
+  }
+}
+.icon-rss{
+  &:hover{
+    background-position: 0 -524px;
+    height: 15px;
+    width: 15px;
+    @include transition-duration;
+  }
+}

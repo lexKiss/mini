@@ -1,0 +1,28 @@
+.tweet-text{
+  font-size: 22px;
+  line-height: 33px;
+  font-weight: bold;
+  position: relative;
+  padding: 0 110px;
+  a{
+    color: $color;
+  }
+}
+.tweet-author{
+  font-size: 15px;
+  line-height: 38px;
+  color: #808080;
+  font-style: italic;
+  display: block;
+  margin-top: -10px;
+}
+.tweet-icon{
+  width: 104px;
+  height: 104px;
+  margin: 0 auto 24px auto;
+  /*float: left;*/
+  text-align: center;
+  line-height: 104px;
+  border: 2px solid #ffffff;
+  border-radius: 104px;
+}

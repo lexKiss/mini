@@ -1,0 +1,7 @@
+afficher qu'un element selection
+alt + clic sur l'oeil (visibilite) de l'élément
+
+copier un élément avec la bonne taille
+ctrl + a pour tt selectionner
+ctrl + maj + c pour copier
+ctrl + n pour creer la copie dans un nouveau fichier
